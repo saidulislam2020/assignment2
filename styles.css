@@ -87,11 +87,13 @@ span {
 }
 
 .item h2 {
+  margin: 0;
   font-size: 28px;
   font-weight: 500;
 }
 
 .item h3 {
+  margin: 0;
   font-size: 24px;
   font-weight: 400;
 }
@@ -113,6 +115,7 @@ span {
 .fa-star-half-alt {
   color: #fb8200;
 }
+
 .ratings span {
   padding-left: 15px;
   font-size: 14px;
