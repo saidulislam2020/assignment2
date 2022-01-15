@@ -153,3 +153,108 @@ footer {
   padding-right: 15px;
 }
 /* footer part end */
+
+/* ---------------
+Media Queries
+--------------- */
+/* Mobile Device */
+/* @media only screen and (min-width: 688px) and (max-width: 992px) {
+ 
+} */
+@media only screen and (max-width: 688px) {
+  main,
+  header {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  header {
+    text-align: center;
+  }
+  .influncer-write {
+    padding-top: 5px;
+    x;
+  }
+  .preebook-button a {
+    text-decoration: none;
+    background-color: #e02c6d;
+    align-items: flex-start;
+    padding: 10px 24px;
+    color: azure;
+    border-radius: 41px;
+    
+  }
+  .influencer-image {
+    padding-top: 100px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+  }
+  .top-main {
+    display: inline;
+  }
+
+  .items {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+  }
+  .item {
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-right: 30px;
+    padding: 14px 14px;
+  }
+  footer{
+    width: 100%;
+  }
+}
+/* tablet deviced */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  main,
+  header {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  header {
+    text-align: center;
+  }
+  .influncer-write {
+    padding-top: 5px;
+    x;
+  }
+  .preebook-button a {
+    text-decoration: none;
+    background-color: #e02c6d;
+    align-items: flex-start;
+    padding: 10px 24px;
+    color: azure;
+    border-radius: 41px;
+    
+  }
+  .influencer-image {
+    padding-top: 100px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+  }
+  .top-main {
+    display: inline;
+  }
+  .items {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
+  .item {
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-right: 30px;
+    padding: 14px 14px;
+  }
+}
