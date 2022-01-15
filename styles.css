@@ -132,12 +132,11 @@ span {
 }
 /* populer part end */
 /* bonus part start*/
-.bonus-part{
-  padding-top:130px;
+.bonus-part {
+  padding-top: 130px;
   display: flex;
- 
 }
-.bonus-images{
+.bonus-images {
   padding-right: 50px;
 }
 
@@ -182,7 +181,6 @@ Media Queries
   }
   .influncer-write {
     padding-top: 5px;
-    x;
   }
   .preebook-button a {
     text-decoration: none;
@@ -191,7 +189,6 @@ Media Queries
     padding: 10px 24px;
     color: azure;
     border-radius: 41px;
-    
   }
   .influencer-image {
     padding-top: 100px;
@@ -201,7 +198,7 @@ Media Queries
   .top-main {
     display: inline;
   }
-  
+
   .items {
     margin-top: 50px;
     display: grid;
@@ -215,13 +212,12 @@ Media Queries
     margin-right: 30px;
     padding: 14px 14px;
   }
-  footer{
+  footer {
     width: 100%;
   }
-  .bonus-part{
-    padding-top:40px;
+  .bonus-part {
+    padding-top: 40px;
     display: inline;
-   
   }
 }
 /* tablet deviced */
@@ -238,7 +234,6 @@ Media Queries
   }
   .influncer-write {
     padding-top: 5px;
-    x;
   }
   .preebook-button a {
     text-decoration: none;
@@ -247,7 +242,6 @@ Media Queries
     padding: 10px 24px;
     color: azure;
     border-radius: 41px;
-    
   }
   .influencer-image {
     padding-top: 100px;
@@ -270,9 +264,8 @@ Media Queries
     margin-right: 30px;
     padding: 14px 14px;
   }
-  .bonus-part{
-    padding-top:60px;
+  .bonus-part {
+    padding-top: 60px;
     display: inline;
-   
   }
 }
