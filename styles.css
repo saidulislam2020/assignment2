@@ -58,15 +58,12 @@ span {
 }
 
 /* main top image */
-.influencer-image {
-}
 /* main top background iamge add */
 .influencer-image {
   background-image: url(images/Circle\ design.svg);
-  /* background-repeat: no-repeat; */
 }
 
-/* popular head */
+/* popular start */
 .popular {
   margin-top: 150px;
 }
@@ -121,6 +118,16 @@ span {
   font-size: 14px;
   font-weight: 400;
 }
+.see-more {
+  padding-top: 50px;
+  text-align: right;
+}
+.see-more a {
+  text-decoration: none;
+  color: #e02c6d;
+  align-items: flex-start;
+}
+/* populer part end */
 /* footer part start */
 footer {
   margin-top: 100px;
@@ -139,3 +146,7 @@ footer {
   font-family: Manrope;
   font-style: normal;
 }
+.logo-footer i {
+  padding-right: 15px;
+}
+/* footer part end */
