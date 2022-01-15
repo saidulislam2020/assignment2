@@ -85,3 +85,29 @@ span {
   margin-right: 30px;
   padding: 14px 14px;
 }
+
+.item h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.item h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* font star logo color  */
+.fa-star {
+  font-size: 14px;
+}
+.fa-star.filed {
+  color: #fb8200;
+}
+.fa-star-half-alt {
+  color: #fb8200;
+}
+.ratings span {
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
