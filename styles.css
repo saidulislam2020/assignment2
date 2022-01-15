@@ -5,14 +5,16 @@
 body {
   font-family: "Be Vietnam Pro", sans-serif;
   font-family: "Poppins", sans-serif;
-
+  margin: 0 auto;
+}
+/* header */
+main,
+header {
   width: 80%;
   margin-top: 25px;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: beige;
 }
-/* header */
 
 /* header span */
 span {
@@ -81,7 +83,8 @@ span {
 }
 .item {
   border-radius: 5px;
-  background-color: floralwhite;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   margin-right: 30px;
   padding: 14px 14px;
 }
@@ -95,7 +98,14 @@ span {
   font-size: 24px;
   font-weight: 400;
 }
-
+.description p {
+  margin: 0;
+  color: #787885;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
 /* font star logo color  */
 .fa-star {
   font-size: 14px;
@@ -110,4 +120,22 @@ span {
   padding-left: 15px;
   font-size: 14px;
   font-weight: 400;
+}
+/* footer part start */
+footer {
+  margin-top: 100px;
+  background-color: #0a0826;
+  border: 40px solid #0a0826;
+  text-align: center;
+  color: #d9dbe1;
+}
+.part-footer h2 {
+  font-size: 24px;
+  font-family: Manrope;
+  font-style: normal;
+}
+.part-footer p {
+  font-size: 14px;
+  font-family: Manrope;
+  font-style: normal;
 }
