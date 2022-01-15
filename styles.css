@@ -68,6 +68,20 @@ span {
 .popular {
   margin-top: 150px;
 }
-.popular-heder {
-  marging-bottom: 10px;
+
+.popular-heder h2 {
+  text-align: center;
+}
+
+.items {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.item {
+  border-radius: 5px;
+  background-color: floralwhite;
+  margin-right: 30px;
+  padding: 14px 14px;
 }
