@@ -1,0 +1,16 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Poppins:wght@300;700&display=swap");
+
+/* body  */
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+/* main-top-header css  */
+.top-main {
+  display: flex;
+}
+.influencer-image {
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+}
