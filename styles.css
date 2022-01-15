@@ -5,12 +5,58 @@
 body {
   font-family: "Be Vietnam Pro", sans-serif;
   font-family: "Poppins", sans-serif;
+
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-/* main-top-header css  */
+/* header */
+header {
+}
+/* header span */
+span {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+/* header span end */
+/* main-top css  */
 .top-main {
   display: flex;
 }
+/* main top writting */
+.influncer-write {
+  padding-top: 90px;
+  margin-right: 30px;
+}
+.influncer-write h2 p {
+  margin-top: 0px;
+  text-align: justify;
+}
+/* main top a button */
+.preebook-button {
+  margin-top: 36px;
+}
+.preebook-button a {
+  text-decoration: none;
+  background-color: #e02c6d;
+  align-items: flex-start;
+  padding: 10px 24px;
+  color: azure;
+  border-radius: 41px;
+}
+
+/* font awesome */
+.fas {
+  padding-left: 8px;
+}
+
+/* main top image */
+.influencer-image {
+}
+/* main top background iamge add */
 .influencer-image {
   background-image: url(images/Circle\ design.svg);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
